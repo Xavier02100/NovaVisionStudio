@@ -1,114 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NovaVision Studio</title>
-
-<style>
-body{
-font-family:Inter,Arial;
-background: radial-gradient(circle at 20% 20%, rgba(120,80,255,0.2), transparent 40%), #0b0613;
-color:white;
-margin:0;
-}
-
-.container{max-width:1100px;margin:auto;padding:40px;}
-
-h1{font-size:60px;font-weight:900;}
-
-.gradient{
-background:linear-gradient(90deg,#c084fc,#f472b6);
--webkit-background-clip:text;
-color:transparent;
-}
-
-.grid{display:flex;gap:20px;flex-wrap:wrap;}
-
-.card{
-background:rgba(255,255,255,0.05);
-padding:20px;
-border-radius:20px;
-flex:1;
-min-width:250px;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-border-radius:15px;
-}
-
-.price{
-padding:25px;
-border-radius:20px;
-background:rgba(255,255,255,0.05);
-}
-
-.premium{
-background:linear-gradient(135deg,#c084fc,#f472b6);
-color:black;
-}
-
-button{
-padding:12px 20px;
-border:none;
-border-radius:10px;
-background:linear-gradient(90deg,#c084fc,#f472b6);
-cursor:pointer;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="container">
-<h1>Des sites <span class="gradient">haut de gamme</span><br>pour attirer des clients</h1>
-<p>Création de sites modernes et efficaces</p>
-</div>
-
-<div class="container">
-<h2>Services</h2>
-<div class="grid">
-<div class="card">Artisan</div>
-<div class="card">Beauté</div>
-<div class="card">Business</div>
-</div>
-</div>
-
-<div class="container">
-<h2>Exemples</h2>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200">
-<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200">
-<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200">
-</div>
-</div>
-
-<div class="container">
-<h2>Offres</h2>
-<div class="grid">
-<div class="price">
-<h3>Site simple</h3>
-<p>390€</p>
-</div>
-<div class="price premium">
-<h3>Site premium</h3>
-<p>690€</p>
-</div>
-</div>
-</div>
-
-<div class="container">
-<h2>Contact</h2>
-<button>WhatsApp</button>
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaVision Studio</title>
+    <meta name="description" content="NovaVision Studio crée des sites web premium, modernes et élégants pour entreprises, artisans et indépendants." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
