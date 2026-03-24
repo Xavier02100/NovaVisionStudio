@@ -1,0 +1,1 @@
+# NovaVision React Clean\n\n1. npm install\n2. npm run dev\n3. push sur GitHub\n4. import dans Vercel\n
